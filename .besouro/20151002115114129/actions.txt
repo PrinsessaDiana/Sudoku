@@ -90,3 +90,9 @@ EditAction 1443778224016 SudokuVerifier.java 1020 1 7 0
 UnitTestCaseAction 1443778225908 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443778225909 TestSudokuVerifier OK
 EditAction 1443778232308 SudokuVerifier.java 1020 1 7 0
+UnitTestCaseAction 1443778234042 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443778234043 TestSudokuVerifier OK
+RefactoringAction 1443778729341 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1443778793000 SudokuVerifier.java ADD import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List IMPORT
+RefactoringAction 1443778796667 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+EditAction 1443779464234 SudokuVerifier.java 1211 1 6 0

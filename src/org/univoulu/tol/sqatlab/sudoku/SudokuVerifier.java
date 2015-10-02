@@ -1,5 +1,10 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 public class SudokuVerifier {
 	
 	int length;
@@ -11,14 +16,26 @@ public class SudokuVerifier {
 //R3: A digit can appear only once in the rows of the global grid.
 //R4: A digit can appear only once in the columns of the global grid.
 		
-		candidateSolution = "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
+		candidateSolution
+		        = "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789";
+		
+		
 		
 		int length = candidateSolution.length();
 		boolean enoughNumbers;
 		
-		char firstChar = candidateSolution.charAt(8);
+		
+		int[ ][ ] sudokuPuzzle = new int[9][9];
 	  
-		System.out.print(firstChar);
+		
 	
 		if(length == 81) {
 			
