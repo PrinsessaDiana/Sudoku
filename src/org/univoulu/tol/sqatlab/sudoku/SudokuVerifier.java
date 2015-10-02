@@ -14,7 +14,8 @@ public class SudokuVerifier {
 			
 		}
 		
-		return 81;
+		// returns 1 if the candidate solution is correct
+		return 0;
 	}
 	
 	
