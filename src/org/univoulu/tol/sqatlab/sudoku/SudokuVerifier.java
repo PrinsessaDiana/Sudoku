@@ -11,10 +11,12 @@ public class SudokuVerifier {
 //R3: A digit can appear only once in the rows of the global grid.
 //R4: A digit can appear only once in the columns of the global grid.
 		
+		candidateSolution = "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
+		
 		int length = candidateSolution.length();
 		boolean enoughNumbers;
 		
-		char firstChar = candidateSolution.charAt(1);
+		char firstChar = candidateSolution.charAt(0);
 	  
 		System.out.print(firstChar);
 	
