@@ -26,7 +26,7 @@ public class SudokuVerifier {
 			enoughNumbers = false;
 		}
 		
-		if()
+		//if(enoughNumbers && ) {
 		
 		
 		// returns 1 if the candidate solution is correct
