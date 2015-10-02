@@ -70,7 +70,7 @@ public class SudokuVerifier {
 		}
 		
 		else {
-			return 0;
+			return 6;
 		}
 		
 		
