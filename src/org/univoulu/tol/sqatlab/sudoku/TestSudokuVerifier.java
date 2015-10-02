@@ -12,6 +12,7 @@ public class TestSudokuVerifier {
 		
 		String candidateSolution = "123456" ;
 		sv.verify(candidateSolution );
+		assertEquals(0, null);
 	}
 
 }
