@@ -220,3 +220,4 @@ RefactoringAction 1443782981285 SudokuVerifier.java RENAME check=>int checkNumbe
 RefactoringAction 1443783067002 SudokuVerifier.java REMOVE checkNumbers() METHOD
 CompilationAction 1443783069398 SudokuVerifier.java
 EditAction 1443783082293 SudokuVerifier.java 2031 1 9 0
+EditAction 1443783087896 TestSudokuVerifier.java 423 1 4 1
