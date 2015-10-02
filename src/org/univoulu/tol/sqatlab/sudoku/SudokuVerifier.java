@@ -15,6 +15,10 @@ public class SudokuVerifier {
 			
 		}
 		
+		else {
+			System.out.print("No 81 numbers");
+		}
+		
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
