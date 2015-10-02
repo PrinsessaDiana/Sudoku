@@ -16,7 +16,7 @@ public class SudokuVerifier {
 //R3: A digit can appear only once in the rows of the global grid.
 //R4: A digit can appear only once in the columns of the global grid.
 		
-		candidateSolution
+		/*candidateSolution
 		        = "123456789"
 				+ "123456789"
 				+ "123456789"
@@ -25,7 +25,7 @@ public class SudokuVerifier {
 				+ "123456789"
 				+ "123456789"
 				+ "123456789"
-				+ "123456789";
+				+ "123456789"; */
 		
 		
 		
@@ -33,13 +33,7 @@ public class SudokuVerifier {
 		boolean enoughNumbers;
 		
 		
-		String[] parts = candidateSolution.split(" ");
-		int[] n1 = new int[parts.length];
-		for(int n = 0; n < parts.length; n++) {
-		   n1[n] = Integer.parseInt(parts[n]);
-		}
-		
-		System.out.println(candidateSolution);
+
 		
 	
 		if(length == 81) {
