@@ -16,7 +16,7 @@ public class SudokuVerifier {
 		int length = candidateSolution.length();
 		boolean enoughNumbers;
 		
-		char firstChar = candidateSolution.charAt(0);
+		char firstChar = candidateSolution.charAt(8);
 	  
 		System.out.print(firstChar);
 	
