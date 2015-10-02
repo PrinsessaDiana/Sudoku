@@ -31,13 +31,13 @@ public class SudokuVerifier {
 		
 	//	int length = candidateSolution.length();
 		boolean enoughNumbers;
-		int[] intArray=new int[6];
+		int[] intArray=new int[81];
 		
 		int length = candidateSolution.length();
-		  if(length != 82) {
+		  if(length != 81) {
 		    System.out.println("Not a valid length");
 		  } else {
-		    for(int i=0;i<82;i++) {
+		    for(int i=0;i<81;i++) {
 		      if (!Character.isDigit(candidateSolution.charAt(i))) {
 		        System.out.println("Contains an invalid digit");
 		        break;
