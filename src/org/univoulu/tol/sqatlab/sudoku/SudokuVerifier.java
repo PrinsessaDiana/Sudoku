@@ -63,6 +63,10 @@ public class SudokuVerifier {
 		}
 		
 		if(enoughNumbers && intArray[10] != intArray[9] ) {
+			return intArray[10];
+			
+		}
+		
 		
 		
 		// returns 1 if the candidate solution is correct
