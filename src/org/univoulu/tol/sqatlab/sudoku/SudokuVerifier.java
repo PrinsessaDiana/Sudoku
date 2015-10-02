@@ -49,7 +49,7 @@ public class SudokuVerifier {
 		    }
 		  }
 		  
-		System.out.println(Arrays.toString(intArray));
+		//System.out.println(Arrays.toString(intArray));
 		
 		//System.out.print(intArray[0] + " " +  intArray[3]);
 
@@ -81,6 +81,8 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		
 	}
+	
+	
 	
 	
 }

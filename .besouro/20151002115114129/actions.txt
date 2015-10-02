@@ -211,3 +211,12 @@ EditAction 1443782352757 TestSudokuVerifier.java 443 1 4 1
 UnitTestCaseAction 1443782354765 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443782354765 TestSudokuVerifier FAIL
 EditAction 1443782521764 TestSudokuVerifier.java 390 1 3 0
+RefactoringAction 1443782831142 SudokuVerifier.java ADD void verify() METHOD
+RefactoringAction 1443782852176 SudokuVerifier.java REMOVE verify() METHOD
+RefactoringAction 1443782973255 SudokuVerifier.java ADD int veri FIELD
+RefactoringAction 1443782975266 SudokuVerifier.java RENAME veri=>int ch FIELD
+RefactoringAction 1443782977276 SudokuVerifier.java RENAME ch=>int check FIELD
+RefactoringAction 1443782981285 SudokuVerifier.java RENAME check=>int checkNumbers() METHOD
+RefactoringAction 1443783067002 SudokuVerifier.java REMOVE checkNumbers() METHOD
+CompilationAction 1443783069398 SudokuVerifier.java
+EditAction 1443783082293 SudokuVerifier.java 2031 1 9 0
