@@ -8,7 +8,10 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		SudokuVerifier sv = new SudokuVerifier();
+		
+		String candidateSolution = "123456" ;
+		sv.verify(candidateSolution );
 	}
 
 }
