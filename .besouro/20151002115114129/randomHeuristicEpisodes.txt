@@ -1,2 +1,5 @@
 1443776732121 refactoring 2A 857 true
 1443776942605 test-first 3 149 true
+1443776966933 refactoring 2A 3 true
+1443776982541 regression 1 0 true
+1443776984201 regression 1 0 false
