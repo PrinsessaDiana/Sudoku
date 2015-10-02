@@ -9,7 +9,7 @@ public class SudokuVerifier {
 	
 	int length;
 
-	public String verify(String candidateSolution) {
+	public int verify(String candidateSolution) {
 		
 //R1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
 //R2: All digits appear only once in a sub-grid, i.e. they cannot repeat.
@@ -68,12 +68,12 @@ public class SudokuVerifier {
 		
 		if(enoughNumbers && (intArray[0] != intArray[1]) && (intArray[0] != intArray[2])  && (intArray[0] != intArray[3]) &&
 			(intArray[0] != intArray[4]) && (intArray[0] != intArray[5]) && (intArray[0] != intArray[6])) {
-			return "First row pass";
+			return R1;
 			
 		}
 		
 		else {
-			return "First row is invalid";
+			return R2;
 		}
 		
 		
