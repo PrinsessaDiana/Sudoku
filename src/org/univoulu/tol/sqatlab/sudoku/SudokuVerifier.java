@@ -47,6 +47,7 @@ public class SudokuVerifier {
 		  }
 		  
 		System.out.println(Arrays.toString(intArray));
+		System.out.print(intArray[0]);
 		
 
 		
@@ -62,8 +63,8 @@ public class SudokuVerifier {
 			enoughNumbers = false;
 		}
 		
-		if(enoughNumbers && intArray[10] != intArray[9] ) {
-			return intArray[10];
+		if(enoughNumbers && intArray[0] != intArray[9] ) {
+			return intArray[0];
 			
 		}
 		
