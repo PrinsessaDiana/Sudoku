@@ -14,16 +14,7 @@ public class SudokuVerifier {
 		int length = candidateSolution.length();
 		boolean enoughNumbers;
 		
-		// variables
-		String sudokuNums = candidateSolution;
-		// can split by whitespace to store into an array/lits (I used array for preference) - still string
-		String[] num_arr = sudokuNums.split(" ");
-		int[] nums_iArr = new int[num_arr.length];
-		// loop over num_arr, converting element at i to an int and add to int array
-
-		for (int i = 0; i < num_arr.length; i++) {
-		    int num_int = Integer.parseInt(num_arr[i])
-		    nums_iArr[i] = num_int
+		
 	  
 	
 		if(length == 81) {
