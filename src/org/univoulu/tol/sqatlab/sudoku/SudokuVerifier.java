@@ -39,7 +39,7 @@ public class SudokuVerifier {
 		   n1[n] = Integer.parseInt(parts[n]);
 		}
 		
-		System.out.print(n1[3]);
+		System.out.print(n1[2]);
 		
 	
 		if(length == 81) {
