@@ -8,9 +8,10 @@ public class SudokuVerifier {
 		
 		int length = candidateSolution.length();
 		
+		
 		if(length == 81) {
 			
-			System.out.print("lol");
+			System.out.print("Enough characters");
 			
 		}
 		
