@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		int length = candidateSolution.length();
 		boolean enoughNumbers;
 		
-		String[] strings = candidateSolution.split("");
+		String[] strings = candidateSolution.split(" ");
 	   System.out.println(strings);
 	
 		if(length == 81) {
