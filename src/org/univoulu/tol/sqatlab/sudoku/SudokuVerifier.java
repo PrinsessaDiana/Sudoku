@@ -37,7 +37,7 @@ public class SudokuVerifier {
 		  if(length != 82) {
 		    System.out.println("Not a valid length");
 		  } else {
-		    for(int i=0;i<81;i++) {
+		    for(int i=0;i<82;i++) {
 		      if (!Character.isDigit(candidateSolution.charAt(i))) {
 		        System.out.println("Contains an invalid digit");
 		        break;
