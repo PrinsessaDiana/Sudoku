@@ -29,9 +29,24 @@ public class SudokuVerifier {
 		
 		
 		
-		int length = candidateSolution.length();
+	//	int length = candidateSolution.length();
 		boolean enoughNumbers;
+		int[] intArray=new int[6];
 		
+		int length = candidateSolution.length();
+		  if(length != 82) {
+		    System.out.println("Not a valid length");
+		  } else {
+		    for(int i=0;i<81;i++) {
+		      if (!Character.isDigit(candidateSolution.charAt(i))) {
+		        System.out.println("Contains an invalid digit");
+		        break;
+		      }
+		      intArray[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
+		    }
+		  }
+		  
+		System.out.println(Arrays.toString(intArray));
 		
 
 		
