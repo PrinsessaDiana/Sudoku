@@ -48,7 +48,7 @@ public class SudokuVerifier {
 		  
 		System.out.println(Arrays.toString(intArray));
 		
-		System.out.print(intArray[0] + intArray[3]);
+		System.out.print(intArray[0] + " " +  intArray[3]);
 
 		
 	
