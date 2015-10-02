@@ -69,6 +69,10 @@ public class SudokuVerifier {
 			
 		}
 		
+		else {
+			return 0;
+		}
+		
 		
 		
 		// returns 1 if the candidate solution is correct
