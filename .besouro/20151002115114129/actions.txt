@@ -96,3 +96,6 @@ RefactoringAction 1443778729341 SudokuVerifier.java ADD import java.util.Arrays 
 RefactoringAction 1443778793000 SudokuVerifier.java ADD import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List IMPORT
 RefactoringAction 1443778796667 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
 EditAction 1443779464234 SudokuVerifier.java 1211 1 6 0
+UnitTestCaseAction 1443780073854 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443780073854 TestSudokuVerifier FAIL
+EditAction 1443780332081 SudokuVerifier.java 1340 1 8 0

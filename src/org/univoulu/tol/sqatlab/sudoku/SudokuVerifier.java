@@ -33,8 +33,11 @@ public class SudokuVerifier {
 		boolean enoughNumbers;
 		
 		
-		int[ ][ ] sudokuPuzzle = new int[9][9];
-	  
+		String[] parts = candidateSolution.split(" ");
+		int[] n1 = new int[parts.length];
+		for(int n = 0; n < parts.length; n++) {
+		   n1[n] = Integer.parseInt(parts[n]);
+		}
 		
 	
 		if(length == 81) {
