@@ -31,6 +31,9 @@ public class SudokuVerifier {
 		
 	//	int length = candidateSolution.length();
 		boolean enoughNumbers;
+		int R1 = 0;
+		int R2 = 1;
+		int R3 = 3;
 		int[] intArray=new int[81];
 		
 		int length = candidateSolution.length();
