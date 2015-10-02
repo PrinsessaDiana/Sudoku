@@ -10,7 +10,7 @@ public class SudokuVerifier {
 		
 		if(length == 81) {
 			
-			
+			System.out.print("lol");
 			
 		}
 		
