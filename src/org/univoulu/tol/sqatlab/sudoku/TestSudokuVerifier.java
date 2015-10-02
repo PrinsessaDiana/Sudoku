@@ -10,7 +10,7 @@ public class TestSudokuVerifier {
 	public void test() {
 		SudokuVerifier sv = new SudokuVerifier();
 		
-		String candidateSolution = "123456" ;
+		String candidateSolution = "123456789123456789123456789123456789123456789123456789123456789123456789123456789" ;
 		sv.verify(candidateSolution );
 		assertEquals(0, null);
 	}
